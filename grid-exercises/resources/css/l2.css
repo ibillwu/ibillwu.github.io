@@ -1,0 +1,33 @@
+section{
+    background-color: grey;
+    color: white;
+    padding: 0.3em;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: [line-start] 1fr [sidebar] 2fr [line-end];
+    grid-column-gap: 0.5em;
+    grid-template-rows: [page-start] auto [content-start] auto [content-end] auto [page-footer];
+    grid-row-gap: 0.5em;
+}
+
+.sidebar{
+    grid-column: line-start / sidebar;
+    grid-row: content-start / content-end;
+}
+
+.header{
+    grid-column: line-start / line-end;
+    grid-row: page-start / content-start;
+}
+
+.text{
+    grid-column: sidebar / line-end;
+    grid-row: content-start / content-end;
+}
+
+.footer{
+    grid-column: line-start / line-end;
+    grid-row: content-end / page-end;
+}
