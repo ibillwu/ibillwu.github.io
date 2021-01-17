@@ -15,6 +15,9 @@ section{
 .img{
     grid-column: line-start / line-middle;
     grid-row: page-start / page-img;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .title{
