@@ -1,0 +1,39 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: 100vw;
+    grid-template-rows: [page-start] 90fr [footer-start] 3fr [footer-end];
+    grid-gap: 1em;
+    width: 100vw;
+    height: 98vh;
+}
+
+.big{
+    font-size: 8em;
+    font-weight: 600;
+}
+
+.main{
+    grid-row: 1/2;
+    text-align: center;
+    margin: auto 0;
+}
+
+.footer{
+    grid-row: 2/3;
+    text-align: center;
+}
+
+.middle{
+    font-size: 1.5em;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: yellow;
+    text-decoration:dashed ;
+    text-decoration-color: white;
+}
