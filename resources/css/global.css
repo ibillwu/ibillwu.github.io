@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&display=swap');
+
 *{
     box-sizing: border-box;
     padding:0;
     margin:0;
+    text-transform: lowercase;
+    text-align: center;
 }
 
 body{
@@ -17,6 +21,7 @@ a{
 
 a:hover{
     color: yellow;
-    text-decoration:dashed ;
-    text-decoration-color: white;
+    text-decoration-line: underline ;
+    text-decoration-color: yellow;
 }
+

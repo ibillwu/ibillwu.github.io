@@ -9,7 +9,6 @@
 
 .big{
     font-size: 8em;
-    font-weight: 600;
 }
 
 .main{
@@ -25,4 +24,8 @@
 
 .middle{
     font-size: 1.5em;
+}
+
+.no-transform{
+    text-transform: none;
 }
