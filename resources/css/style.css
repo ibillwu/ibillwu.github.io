@@ -26,14 +26,3 @@
 .middle{
     font-size: 1.5em;
 }
-
-a{
-    color: white;
-    text-decoration: none;
-}
-
-a:hover{
-    color: yellow;
-    text-decoration:dashed ;
-    text-decoration-color: white;
-}
