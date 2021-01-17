@@ -29,3 +29,10 @@
 .no-transform{
     text-transform: none;
 }
+
+@media (max-width: 900px){
+    .grid-container{
+        height: 90vh;
+        grid-template-rows: 6fr 1fr;
+    }
+}
